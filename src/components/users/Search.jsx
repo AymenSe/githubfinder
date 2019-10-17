@@ -36,7 +36,7 @@ function Search({ searchUser, clearSearch, showClear }) {
       </form>
       {showClear && (
         <button className="btn btn-light btn-block" onClick={onClear}>
-          Clear
+          Clear!
         </button>
       )}
     </div>
